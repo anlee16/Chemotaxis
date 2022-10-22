@@ -25,7 +25,7 @@ void draw()
   ellipse(320,375,30,70);//door
   for (int i = 0; i<kay.length; i++) {
     kay[i].show();
-    kay[1].walk();
+    kay[i].walk();
   }
 }
 void mouseClicked() {
